@@ -1,0 +1,38 @@
+.bg-whatweoffer {
+  background-image: url(../../../assets/images/bg-whatweoffer.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.icon-flip {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  transform-style: preserve-3d;
+  transition: transform 0.6s ease;
+}
+
+.offer-card:hover .icon-flip {
+  transform: rotateY(180deg);
+}
+
+.icon-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-back {
+  transform: rotateY(180deg);
+}
+
+@media (max-width: 640px) {
+  .icon-flip {
+    width: 56px;
+    height: 56px;
+  }
+}

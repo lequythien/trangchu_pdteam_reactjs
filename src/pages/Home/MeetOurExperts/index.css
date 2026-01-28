@@ -1,0 +1,8 @@
+.bg-meetourpage {
+  height: 1000px;
+  width: 100%;
+  background-image: url(../../../assets/images/bg-meetourexperts.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
