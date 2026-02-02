@@ -3,7 +3,7 @@ import { MdAdd } from "react-icons/md";
 
 export function GalleryItem({ img }) {
   return (
-    <div className="relative group overflow-hidden rounded-md h-full min-h-[240px]">
+    <div className="relative group overflow-hidden rounded-md">
       <img
         src={img}
         alt="Gallery Image"
